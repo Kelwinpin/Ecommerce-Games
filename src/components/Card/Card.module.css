@@ -1,0 +1,33 @@
+.card:hover{
+    transform: scale(1.2);
+}
+
+.card {
+    background-color: #D2D2D2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4px;
+    width: min-content;
+    height: min-content;
+    align-items: center;
+}
+
+.cardImage {
+    background-color: #FFF;
+}
+
+.descricao {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.descricao h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.cardImage img {
+    width: 200px;
+    height: 150px;
+}
